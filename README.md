@@ -1,23 +1,29 @@
-<!-- HEADER -->
+<!-- HEADER ESTÉTICO -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0f0f,100:6a00ff&height=200&section=header&text=ROFS%20SKETCH&fontSize=40&fontColor=00ffc6&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d0d0d,100:3a0ca3&height=250&section=header&text=rofs-sketch&fontSize=42&fontColor=c77dff&animation=fadeIn"/>
+</p>
+
+<!-- FRASE PRINCIPAL -->
+<p align="center">
+  <i>"Entre lógica e caos, eu escrevo código."</i>
 </p>
 
 <!-- APRESENTAÇÃO -->
-<h2 align="center">👾 Eu sou o rofs-sketch</h2>
+<h2 align="center">👾 Olá, eu sou o rofs-sketch</h2>
 
 <p align="center">
-  Transformando lógica em código, e código em possibilidades.
+  Desenvolvedor movido por curiosidade, construindo projetos  
+  onde matemática, lógica e criatividade se encontram.
 </p>
 
-<!-- ANIMAÇÃO MATEMÁTICA -->
+<!-- ANIMAÇÃO MATEMÁTICA SUAVE -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2200&pause=400&color=00FFC6&center=true&vCenter=true&width=700&lines=f(x)+%3D+code;lim+%28aprendizado%29+%E2%86%92+%E2%88%9E;while%28alive%29+%7B+evoluir%28%29+%3B+%7D;python+%2B+java+%2B+ideias+%3D+realidade"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2500&pause=600&color=C77DFF&center=true&vCenter=true&width=650&lines=f(x)=code;lim+%28evolução%29+→+∞;∑+%28ideias%29+→+projetos;python+%7C+java+%7C+criação"/>
 </p>
 
-<!-- GIF ANIME + TECH -->
+<!-- GIF ESTÉTICO -->
 <p align="center">
-  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="450"/>
+  <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="420"/>
 </p>
 
 ---
@@ -26,6 +32,6 @@
 
 ```diff
 + Nome: rofs-sketch
-+ Classe: desenvolvedor
-+ Especialidade: transformar ideias em código
-+ Energia: café + curiosidade + persistência
++ Foco: desenvolvimento e evolução contínua
++ Stack: Python | Java | Web
++ Estilo: minimalismo + profundidade
