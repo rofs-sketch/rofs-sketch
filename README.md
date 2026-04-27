@@ -1,32 +1,31 @@
 <!-- HEADER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0f0f0f,100:00ffc6&height=220&section=header&text=ROFS%20SYSTEM&fontSize=42&fontColor=00ffc6&animation=blinking"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0f0f,100:6a00ff&height=200&section=header&text=ROFS%20SKETCH&fontSize=40&fontColor=00ffc6&animation=fadeIn"/>
 </p>
 
-<!-- APRESENTAÇÃO FORTE -->
-<h2 align="center">👾 Olá, eu sou o rofs-sketch</h2>
+<!-- APRESENTAÇÃO -->
+<h2 align="center">👾 Eu sou o rofs-sketch</h2>
 
 <p align="center">
-  Desenvolvedor em construção, criando projetos, explorando ideias  
-  e evoluindo um commit de cada vez.
+  Transformando lógica em código, e código em possibilidades.
 </p>
 
-<!-- EFEITO DIGITANDO -->
+<!-- ANIMAÇÃO MATEMÁTICA -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2500&pause=500&color=00FFC6&center=true&vCenter=true&width=650&lines=desenvolvedor+em+evolução...;python+%7C+java+%7C+web;criando+coisas+que+funcionam...;e+aprendendo+no+processo+🔥"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2200&pause=400&color=00FFC6&center=true&vCenter=true&width=700&lines=f(x)+%3D+code;lim+%28aprendizado%29+%E2%86%92+%E2%88%9E;while%28alive%29+%7B+evoluir%28%29+%3B+%7D;python+%2B+java+%2B+ideias+%3D+realidade"/>
 </p>
 
-<!-- GIF PRINCIPAL -->
+<!-- GIF ANIME + TECH -->
 <p align="center">
-  <img src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" width="500"/>
+  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="450"/>
 </p>
 
 ---
 
-## 🧠 SOBRE
+## 🧠 IDENTIDADE
 
 ```diff
 + Nome: rofs-sketch
-+ Foco: desenvolvimento e evolução constante
-+ Stack: Python | Java | Web
-+ Mentalidade: aprender > errar > melhorar
++ Classe: desenvolvedor
++ Especialidade: transformar ideias em código
++ Energia: café + curiosidade + persistência
