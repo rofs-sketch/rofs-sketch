@@ -1,64 +1,19 @@
-# 👋 E aí, beleza? Eu sou o rofs-sketch
+<!-- HEADER ANIMADO -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,100:00ffc6&height=200&section=header&text=rofs-sketch&fontSize=40&fontColor=00ffc6&animation=fadeIn"/>
+</p>
 
-🚀 Bem-vindo ao meu cantinho digital  
-Aqui é onde eu transformo ideias em código (e às vezes em bugs também 😅)
-
----
-
-## 🧠 Sobre mim
-
-🎯 Atualmente focado em:
-> Construir projetos criativos e evoluir como dev
-
-📚 Aprendendo no momento:
-> Novas tecnologias, lógica afiada e boas práticas
-
-🤝 Bora colaborar?
-> Sempre aberto a projetos interessantes e parcerias
-
-🆘 Precisa de ajuda?
-> Se eu souber, ajudo. Se não souber, a gente descobre junto
+<!-- DIGITANDO -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=800&color=00FFC6&center=true&vCenter=true&width=600&lines=Desenvolvedor+em+evolução...;Criando+coisas+que+funcionam...;E+às+vezes+quebrando+tudo+😅;Mas+sempre+aprendendo+🔥"/>
+</p>
 
 ---
 
-## 💬 Pode trocar ideia comigo sobre:
+## 👾 IDENTIDADE
 
-💻 Programação  
-⚙️ Tecnologia em geral  
-🎮 Games  
-🌐 Ideias malucas que podem virar projetos
-
----
-
-## 📫 Contato
-
-📩 Em breve... (ou manda um sinal de fumaça 😂)
-
----
-
-## 😄 Pronomes
-
-Ele/Dele
-
----
-
-## ⚡ Curiosidade aleatória
-
-> Às vezes passo mais tempo escolhendo nome de variável do que programando
-
----
-
-## 🛠️ Projetos em destaque
-
-🔹 Em construção... mas vem coisa boa por aí 👀
-
----
-
-## 🔥 Filosofia
-
-> "Feito é melhor que perfeito."  
-> Mas se der pra deixar perfeito, melhor ainda 😎
-
----
-
-⭐ Se curtir algo por aqui, já deixa uma estrela!
+```diff
++ Nome: rofs-sketch
++ Status: online
++ Missão: evoluir como dev e criar projetos fora do comum
++ Sistema: café + código + curiosidade infinita
