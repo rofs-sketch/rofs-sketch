@@ -1,14 +1,16 @@
-## Hi there 👋
+<!-- BANNER / GIF -->
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500"/>
+</p>
 
+<h1 align="center">👾 rofs-sketch.exe</h1>
+<p align="center">> Inicializando sistema...</p>
 
+---
 
-Here are some ideas to get you started:
+## 🧠 Sobre mim
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+```diff
++ Desenvolvedor em evolução constante
++ Transformando café em código ☕
++ Explorando ideias e criando projetos únicos
