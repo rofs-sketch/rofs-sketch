@@ -1,0 +1,110 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class AulaBinarios {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Random random = new Random();
+
+        int opcao;
+
+        do {
+            System.out.println("\n==============================");
+            System.out.println("   CURSO DE NÚMEROS BINÁRIOS");
+            System.out.println("==============================");
+            System.out.println("1 - O que é binário");
+            System.out.println("2 - Converter decimal para binário");
+            System.out.println("3 - Converter binário para decimal");
+            System.out.println("4 - Quiz de binários");
+            System.out.println("0 - Sair");
+            System.out.print("Escolha: ");
+
+            opcao = sc.nextInt();
+
+            switch (opcao) {
+
+                case 1:
+                    explicarBinario();
+                    break;
+
+                case 2:
+                    decimalParaBinario(sc);
+                    break;
+
+                case 3:
+                    binarioParaDecimal(sc);
+                    break;
+
+                case 4:
+                    quiz(sc, random);
+                    break;
+
+                case 0:
+                    System.out.println("Encerrando programa...");
+                    break;
+
+                default:
+                    System.out.println("Opção inválida.");
+            }
+
+        } while (opcao != 0);
+
+        sc.close();
+    }
+
+    public static void explicarBinario() {
+        System.out.println("\n=== O QUE É BINÁRIO ===");
+        System.out.println("Computadores usam apenas 0 e 1.");
+        System.out.println("Isso é chamado de sistema binário.");
+        System.out.println("Exemplo:");
+        System.out.println("Decimal 5 = Binário 101");
+        System.out.println("Decimal 10 = Binário 1010");
+        System.out.println("\nCada posição vale:");
+        System.out.println("1  -> 1");
+        System.out.println("10 -> 2");
+        System.out.println("100 -> 4");
+        System.out.println("1000 -> 8");
+    }
+
+    public static void decimalParaBinario(Scanner sc) {
+        System.out.print("\nDigite um número decimal: ");
+        int numero = sc.nextInt();
+
+        String binario = Integer.toBinaryString(numero);
+
+        System.out.println("Binário: " + binario);
+    }
+
+    public static void binarioParaDecimal(Scanner sc) {
+        System.out.print("\nDigite um número binário: ");
+        String binario = sc.next();
+
+        try {
+            int decimal = Integer.parseInt(binario, 2);
+            System.out.println("Decimal: " + decimal);
+        } catch (Exception e) {
+            System.out.println("Número binário inválido.");
+        }
+    }
+
+    public static void quiz(Scanner sc, Random random) {
+        int numero = random.nextInt(16) + 1;
+
+        String respostaCorreta = Integer.toBinaryString(numero);
+
+        System.out.println("\n=== QUIZ ===");
+        System.out.println("Converta para binário:");
+        System.out.println(numero);
+
+        System.out.print("Resposta: ");
+        String resposta = sc.next();
+
+        if (resposta.equals(respostaCorreta)) {
+            System.out.println("Correto!");
+        } else {
+            System.out.println("Errado!");
+            System.out.println("Resposta correta: " + respostaCorreta);
+        }
+    }
+}
