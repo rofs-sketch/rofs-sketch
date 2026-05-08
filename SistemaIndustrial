@@ -1,0 +1,69 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class SistemaIndustrial {
+
+    static class Sensor {
+
+        int idSensor;
+        int idEquipamento;
+        String status;
+
+        public Sensor(int idSensor, int idEquipamento, String status) {
+            this.idSensor = idSensor;
+            this.idEquipamento = idEquipamento;
+            this.status = status;
+        }
+    }
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        ArrayList<Sensor> sensores = new ArrayList<>();
+
+        // Sensores simulados
+        sensores.add(new Sensor(101, 1, "ATIVO"));
+        sensores.add(new Sensor(102, 1, "INATIVO"));
+        sensores.add(new Sensor(103, 1, "MANUTENCAO"));
+
+        sensores.add(new Sensor(201, 2, "ATIVO"));
+        sensores.add(new Sensor(202, 2, "ATIVO"));
+
+        sensores.add(new Sensor(301, 3, "FALHA"));
+
+        System.out.println("=================================");
+        System.out.println(" SISTEMA INDUSTRIAL ");
+        System.out.println("=================================");
+
+        System.out.print("Digite o ID do equipamento: ");
+
+        int equipamentoId = scanner.nextInt();
+
+        boolean encontrou = false;
+
+        System.out.println("\nResultado da consulta:");
+        System.out.println("---------------------------------");
+
+        for (Sensor sensor : sensores) {
+
+            if (sensor.idEquipamento == equipamentoId) {
+
+                encontrou = true;
+
+                System.out.println(
+                    "Sensor ID: " + sensor.idSensor +
+                    " | Status: " + sensor.status
+                );
+            }
+        }
+
+        if (!encontrou) {
+            System.out.println("Nenhum sensor encontrado.");
+        }
+
+        System.out.println("\nConsulta finalizada.");
+
+        scanner.close();
+    }
+}
